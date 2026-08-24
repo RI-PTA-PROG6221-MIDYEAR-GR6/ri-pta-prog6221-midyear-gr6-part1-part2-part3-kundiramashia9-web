@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CyberSecurityChat")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9d80ab1f97965ef269dc67e78864121e3d3d9d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("CyberSecurityChat")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CyberSecurityChat")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
