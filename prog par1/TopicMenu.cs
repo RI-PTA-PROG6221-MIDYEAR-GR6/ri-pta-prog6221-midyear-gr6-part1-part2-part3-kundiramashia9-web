@@ -1,12 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-
-
-
 
 namespace CyberGuardBot
 {
@@ -16,28 +8,93 @@ namespace CyberGuardBot
         {
             while (true)
             {
-                Console.WriteLine("\n========== CYBERSECURITY TOPICS ==========");
-                Console.WriteLine("1. Password Security");
-                Console.WriteLine("2. Phishing");
-                Console.WriteLine("3. Multi-Factor Authentication");
-                Console.WriteLine("4. Social Engineering");
-                Console.WriteLine("5. Malware");
-                Console.WriteLine("6. Online Privacy");
-                Console.WriteLine("7. Exit");
+                Console.Clear();
 
-                Console.Write("\nChoose a topic by entering its number: ");
+                // Header
+                Console.ForegroundColor = ConsoleColor.DarkCyan;
+                Console.WriteLine(new string('═', 60));
+                Console.WriteLine("  🛡️  CYBERSECURITY TOPICS");
+                Console.WriteLine(new string('═', 60));
+                Console.ResetColor();
+
+                // Menu options in a cleaner format
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.WriteLine("\n  ┌─────────────────────────────────────────────┐");
+                Console.WriteLine("  │                                             │");
+                Console.WriteLine("  │  1.  🔐  Password Security                  │");
+                Console.WriteLine("  │  2.  🎣  Phishing                          │");
+                Console.WriteLine("  │  3.  🔑  Multi-Factor Authentication        │");
+                Console.WriteLine("  │  4.  🧠  Social Engineering                │");
+                Console.WriteLine("  │  5.  🦠  Malware                           │");
+                Console.WriteLine("  │  6.  🛡️  Online Privacy                    │");
+                Console.WriteLine("  │  7.  🚪  Exit                              │");
+                Console.WriteLine("  │                                             │");
+                Console.WriteLine("  └─────────────────────────────────────────────┘");
+                Console.ResetColor();
+
+                // User prompt
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.Write($"\n  👤 {name}, enter your choice (1-7): ");
+                Console.ResetColor();
                 string choice = Console.ReadLine();
+
+                // Validation
+                if (string.IsNullOrWhiteSpace(choice))
+                {
+                    ShowError("Invalid input. Please enter a number.");
+                    continue;
+                }
 
                 if (choice == "7")
                 {
-                    Console.WriteLine("\nGoodbye " + name + "! Stay safe online. 🔐");
+                    DisplayExitMessage(name);
                     break;
+                }
+
+                if (!int.TryParse(choice, out int choiceNumber) || choiceNumber < 1 || choiceNumber > 7)
+                {
+                    ShowError("Invalid choice. Please enter a number between 1-7.");
+                    continue;
                 }
 
                 CyberAnswers.GetResponse(choice);
             }
         }
+
+        private static void ShowError(string message)
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine($"\n  ❌ {message}");
+            Console.ResetColor();
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("  Press any key to continue...");
+            Console.ResetColor();
+            Console.ReadKey();
+        }
+
+        private static void DisplayExitMessage(string name)
+        {
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine(new string('═', 60));
+            Console.WriteLine("  👋  GOODBYE!");
+            Console.WriteLine(new string('═', 60));
+            Console.ResetColor();
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine($"\n  Thank you for learning with us, {name}!");
+            Console.WriteLine("  Remember: Cybersecurity starts with YOU.");
+            Console.ResetColor();
+
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("\n  🔐 Stay safe. Stay secure. Stay vigilant.");
+            Console.ResetColor();
+
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("\n" + new string('─', 60));
+            Console.WriteLine("  Press any key to exit...");
+            Console.ResetColor();
+            Console.ReadKey();
+        }
     }
 }
-
-
