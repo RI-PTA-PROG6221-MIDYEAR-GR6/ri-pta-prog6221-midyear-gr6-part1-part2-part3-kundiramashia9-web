@@ -59,38 +59,21 @@ namespace CyberGuardBot
         {
             Console.Clear();
 
-            // Simple clean logo with colors
+            // Logo with colors
             Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine(@"
-    ╔══════════════════════════════════════════════════════════╗
-    ║                                                          ║");
-
-            Console.ForegroundColor = ConsoleColor.DarkCyan;
-            Console.WriteLine(@"    ║     ██████╗██╗   ██╗██████╗ ███████╗██████╗         ║");
-            Console.WriteLine(@"    ║    ██╔════╝╚██╗ ██╔╝██╔══██╗██╔════╝██╔══██╗        ║");
-            Console.WriteLine(@"    ║    ██║      ╚████╔╝ ██████╔╝█████╗  ██████╔╝        ║");
-            Console.WriteLine(@"    ║    ██║       ╚██╔╝  ██╔══██╗██╔══╝  ██╔══██╗        ║");
-            Console.WriteLine(@"    ║    ╚██████╗   ██║   ██████╔╝███████╗██║  ██║        ║");
-            Console.WriteLine(@"    ║     ╚═════╝   ╚═╝   ╚═════╝ ╚══════╝╚═╝  ╚═╝        ║");
-
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine(@"    ║                                                          ║");
-
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine(@"    ║          ███████╗███████╗ ██████╗██╗   ██╗             ║");
-            Console.WriteLine(@"    ║          ██╔════╝██╔════╝██╔════╝╚██╗ ██╔╝             ║");
-            Console.WriteLine(@"    ║          ███████╗█████╗  ██║      ╚████╔╝              ║");
-            Console.WriteLine(@"    ║          ╚════██║██╔══╝  ██║       ╚██╔╝               ║");
-            Console.WriteLine(@"    ║          ███████║███████╗╚██████╗   ██║                ║");
-            Console.WriteLine(@"    ║          ╚══════╝╚══════╝ ╚═════╝   ╚═╝                ║");
-
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine(@"    ║                                                          ║");
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine(@"    ║              🔐  KNOWLEDGE IS YOUR BEST DEFENSE  🔐      ║");
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine(@"    ║                                                          ║");
-            Console.WriteLine(@"    ╚══════════════════════════════════════════════════════════╝");
+            Console.WriteLine(@"_____    ____   ____        ____   _________________       _____          _____   _________________ ");
+            Console.WriteLine(@"  ___|\    \  |    | |    |  ____|\   \ /                 \ ___|\     \    ____|\    \ /                 \");
+            Console.WriteLine(@" /    /\    \ |    | |    | /    /\    \\______     ______/|    |\     \  /     /\    \\______     ______/");
+            Console.WriteLine(@"|    |  |    ||    |_|    ||    |  |    |  \( /    /  )/   |    | |     |/     /  \    \  \( /    /  )/   ");
+            Console.WriteLine(@"|    |  |____||    .-.    ||    |__|    |   ' |   |   '    |    | /_ _ /|     |    |    |  ' |   |   '    ");
+            Console.WriteLine(@"|    |   ____ |    | |    ||    .--.    |     |   |        |    |\    \ |     |    |    |    |   |        ");
+            Console.WriteLine(@"|    |  |    ||    | |    ||    |  |    |    /   //        |    | |    ||\     \  /    /|   /   //        ");
+            Console.WriteLine(@"|\ ___\/    /||____| |____||____|  |____|   /___//         |____|/____/|| \_____\/____/ |  /___//         ");
+            Console.WriteLine(@"| |   /____/ ||    | |    ||    |  |    |  |`   |          |    /     || \ |    ||    | / |`   |          ");
+            Console.WriteLine(@" \|___|    | /|____| |____||____|  |____|  |____|          |____|_____|/  \|____||____|/  |____|          ");
+            Console.WriteLine(@"   \( |____|/   \(     )/    \(      )/      \(              \(    )/        \(    )/       \(            ");
+            Console.WriteLine(@"    '   )/       '     '      '      '        '               '    '          '    '         '            ");
+            Console.WriteLine(@"        '                                                                                                 ");
 
             Console.ResetColor();
         }
