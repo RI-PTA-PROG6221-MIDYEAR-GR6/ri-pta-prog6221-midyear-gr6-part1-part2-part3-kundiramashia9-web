@@ -11,7 +11,7 @@ namespace ChatbotBot
             PlayGreetingSound();
         }
 
-        private static void PlayGreetingSound()
+        public static void PlayGreetingSound()
         {
             try
             {

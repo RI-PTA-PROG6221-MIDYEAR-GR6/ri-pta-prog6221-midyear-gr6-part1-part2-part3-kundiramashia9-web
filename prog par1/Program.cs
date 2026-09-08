@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Media;
 using System.Threading;
+using System.IO;
 
 namespace ChatbotBot
 {
@@ -7,6 +9,9 @@ namespace ChatbotBot
     {
         static void Main(string[] args)
         {
+            // Play greeting sound at startup
+            PlayGreetingSound();
+
             Console.Title = "Chatbot - Cybersecurity Awareness Bot";
             Console.SetWindowSize(120, 50);
 
@@ -48,6 +53,44 @@ namespace ChatbotBot
             Console.ResetColor();
 
             ChatbotEngine.StartChat(name);
+        }
+
+        private static void PlayGreetingSound()
+        {
+            try
+            {
+                // Multiple fallback options for sound
+                string soundPath = @"C:\Users\Student\Documents\GitHub\ri-pta-prog6221-midyear-gr6-part1-part2-part3-kundiramashia9-web\prog par1\WhatsApp Ptt 2026-08-19 at 12.43.50.wav";
+
+                // Check if the sound file exists
+                if (File.Exists(soundPath))
+                {
+                    using (SoundPlayer player = new SoundPlayer(soundPath))
+                    {
+                        player.PlaySync(); // Play sound and wait for it to finish
+                    }
+                }
+                else
+                {
+                    // Fallback to system beep if file not found
+                    Console.Beep(1000, 300);
+                    Console.Beep(1200, 300);
+                    Console.Beep(1500, 400);
+                }
+            }
+            catch (Exception ex)
+            {
+                // Silently handle errors - don't crash the program
+                try
+                {
+                    // Try system beep as last resort
+                    Console.Beep(800, 500);
+                }
+                catch
+                {
+                    // Ignore if even beep fails
+                }
+            }
         }
 
         private static void DisplayLogo()
