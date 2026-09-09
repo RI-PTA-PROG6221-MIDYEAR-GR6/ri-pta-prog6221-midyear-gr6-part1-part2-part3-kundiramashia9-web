@@ -45,12 +45,12 @@ The main objectives of this project are to:
 ```text
 ChatbotBot/
 │
-├── Chatbot.cs
-├── ChatbotEngine.cs
-├── CyberAnswers.cs
-├── Greetings.cs
-├── WhatsApp Ptt 2026-08-19 at 12.43.50.wav
-└── ChatbotBot.csproj
+1. Chatbot.cs
+2. ChatbotEngine.cs
+3. CyberAnswers.cs
+4. Greetings.cs
+5.WhatsApp Ptt 2026-08-19 at 12.43.50.wav
+6. ChatbotBot.csproj
 ```
 
 ## Chatbot.cs
@@ -88,12 +88,12 @@ This class contains the cybersecurity knowledge base.
 
 It provides information about:
 
-* Password Security
-* Phishing
-* Multi-Factor Authentication
-* Social Engineering
-* Malware
-* Online Privacy
+. Password Security
+. Phishing
+. Multi-Factor Authentication
+. Social Engineering
+. Malware
+. Online Privacy
 
 Each topic contains an overview, best practices, and common mistakes.
 
@@ -111,11 +111,11 @@ The chatbot teaches users how to create and manage strong passwords.
 
 Examples of recommendations include:
 
-* Use passwords with 12 or more characters.
-* Do not reuse passwords.
-* Enable 2FA.
-* Use a password manager.
-* Change passwords if a breach is suspected.
+. Use passwords with 12 or more characters.
+. Do not reuse passwords.
+. Enable 2FA.
+. Use a password manager.
+. Change passwords if a breach is suspected.
 
 ### 2. Phishing Attacks
 
@@ -123,11 +123,11 @@ Users learn how attackers use fake communications to steal sensitive information
 
 The chatbot recommends:
 
-* Checking sender addresses.
-* Checking links before clicking.
-* Looking for spelling errors.
-* Being suspicious of urgent requests.
-* Verifying requests through official channels.
+1 Checking sender addresses.
+2 Checking links before clicking.
+3Looking for spelling errors.
+4 Being suspicious of urgent requests.
+5Verifying requests through official channels.
 
 ### 3. Multi-Factor Authentication
 
@@ -135,11 +135,11 @@ The chatbot explains how MFA provides additional security when logging into acco
 
 Users are encouraged to:
 
-* Enable MFA.
-* Use authenticator applications.
-* Keep backup codes secure.
-* Use biometrics where available.
-* Review active sessions.
+1 Enable MFA.
+2 Use authenticator applications.
+3 Keep backup codes secure.
+4 Use biometrics where available.
+5 Review active sessions.
 
 ### 4. Social Engineering
 
@@ -147,11 +147,11 @@ The chatbot explains how social engineering uses psychological manipulation to g
 
 Users are advised to:
 
-* Verify identities.
-* Be careful with unsolicited requests.
-* Follow security procedures.
-* Report suspicious behaviour.
-* Trust but verify.
+1 Verify identities.
+2 Be careful with unsolicited requests.
+3 Follow security procedures.
+4 Report suspicious behaviour.
+5 Trust but verify.
 
 ### 5. Malware Protection
 
@@ -159,11 +159,11 @@ The chatbot explains malware and provides ways to protect computers from malicio
 
 Recommended practices include:
 
-* Install reliable antivirus software.
-* Keep software updated.
-* Download software from official sources.
-* Be careful with attachments and links.
-* Back up important files.
+1 Install reliable antivirus software.
+. Keep software updated.
+. Download software from official sources.
+. Be careful with attachments and links.
+. Back up important files.
 
 ### 6. Online Privacy
 
@@ -171,11 +171,11 @@ The chatbot provides advice on protecting personal information online.
 
 Users are encouraged to:
 
-* Review privacy settings.
-* Use VPNs on public Wi-Fi.
-* Be careful about information shared online.
-* Use privacy-focused browsers.
-* Clear cookies and browsing history regularly.
+. Review privacy settings.
+. Use VPNs on public Wi-Fi.
+. Be careful about information shared online.
+. Use privacy-focused browsers.
+. Clear cookies and browsing history regularly.
 
 ## How to Run the Project
 
