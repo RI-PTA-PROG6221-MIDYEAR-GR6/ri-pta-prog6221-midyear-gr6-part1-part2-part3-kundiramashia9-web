@@ -21,8 +21,8 @@ jobs:
       with:
         dotnet-version: 8.0.x
     - name: Restore dependencies
-      run: dotnet restore prog par1/prog par1.csproj
+      run: dotnet restore "par1/prog par1.csproj"
     - name: Build
-      run: dotnet build --no-restore prog par1/prog par1.csproj
+     run: dotnet build --no-restore "par1/prog par1.csproj"
     - name: Test
-      run: dotnet test --no-build --verbosity normal prog par1/prog par1.csproj
+    run: dotnet test --no-build --verbosity normal "par1/prog par1.csproj"
