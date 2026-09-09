@@ -1,315 +1,265 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/SAB2_YS4)
-# Chatbot - Cybersecurity Awareness Bot
+t
 
-## Project Description
+# Cybersecurity Awareness Chatbot
 
-Chatbot is a C# console-based cybersecurity awareness chatbot designed to help users learn about common cybersecurity threats and how to stay safe online.
+## 1. Introduction
 
-The chatbot allows users to have a simple conversation and ask questions about topics such as:
+The Cybersecurity Awareness Chatbot is a C# console application that helps users learn about basic cybersecurity. The chatbot allows the user to type questions and receive information about different cybersecurity topics.
 
-* Password Security
-* Phishing Attacks
-* Multi-Factor Authentication (MFA/2FA)
-* Social Engineering
-* Malware Protection
-* Online Privacy
-* General Cybersecurity Tips
+The main topics covered by the chatbot are password security, phishing, MFA, social engineering, malware and online privacy.
 
-The chatbot uses keyword detection to understand the user's questions and provide relevant cybersecurity information.
+The project was created to make learning about cybersecurity easier and more interactive while also demonstrating the programming skills used in C#.
 
-## Project Objectives
+## 2. Aim of the Project
 
-The main objectives of this project are to:
+The main aim of the chatbot is to give users simple advice about staying safe online.
 
-1. Educate users about cybersecurity.
-2. Provide simple and useful cybersecurity advice.
-3. Demonstrate C# programming concepts.
-4. Create an interactive console-based chatbot.
-5. Allow users to ask questions naturally.
-6. Provide different responses to greetings and farewells.
-7. Include an audio greeting when the application starts.
+The project also helped me demonstrate how C# can be used to create an interactive application that responds to user input.
 
-## Technologies Used
+The chatbot can:
+
+* Respond to greetings.
+* Ask for and use the user's name.
+* Answer cybersecurity questions.
+* Display a list of available topics.
+* Keep a record of the conversation.
+* Respond to goodbye messages.
+* Play a greeting sound when the program starts.
+
+## 3. Technologies Used
+
+The following technologies were used to develop the application:
 
 * C#
 * .NET 8
-* Visual Studio
-* System.Media
-* System.Threading
-* System.IO
+* Visual Studio / Visual Studio Code
 * Console Application
-* WAV audio file
+* WAV audio
+* System.Media
+* System.IO
+* System.Threading
+* Lists and dictionaries
 
-## Project Structure
+## 4. Main Classes
 
-```text
-ChatbotBot
+The project is divided into different classes. Each class has its own purpose.
 
-1. Chatbot.cs
-2. ChatbotEngine.cs
-3. CyberAnswers.cs
-4. Greetings.cs
-5.WhatsApp Ptt 2026-08-19 at 12.43.50.wav
-6. ChatbotBot.csproj
-```
+### Chatbot.cs
 
-## Chatbot.cs
+This is where the application starts.
 
-This is the main entry point of the application.
+It is responsible for starting the program, displaying the chatbot logo, playing the greeting sound and asking the user for their name.
 
-It:
+After that, it starts the main chatbot conversation.
 
-* Starts the chatbot.
-* Plays the greeting sound.
-* Displays the chatbot logo.
-* Requests the user's name.
-* Displays the welcome message.
-* Starts the chat engine.
+### ChatbotEngine.cs
 
-## ChatbotEngine.cs
+This class controls most of the chatbot's functionality.
 
-This class controls the main conversation.
+It receives the user's messages and checks what the user is asking about. It also handles greetings, goodbye messages, the menu and the conversation history.
 
-It handles:
+The chatbot uses keywords to identify the topic of a question.
 
-1 User input.
-* Greetings.
-* Farewells.
-* The topic menu.
-* Keyword detection.
-* Conversation history.
-* Generating chatbot responses.
+For example, if the user types:
 
-The chatbot stores user input in conversation history and uses dictionaries to manage keywords and responses.
+`How can I create a strong password?`
 
-## CyberAnswers.cs
+the chatbot looks for keywords related to passwords and provides the relevant information.
 
-This class contains the cybersecurity knowledge base.
+### CyberAnswers.cs
 
-It provides information about:
+This class contains the cybersecurity information used by the chatbot.
 
-. Password Security
-. Phishing
-. Multi-Factor Authentication
-. Social Engineering
-. Malware
-. Online Privacy
+It contains information about:
 
-Each topic contains an overview, best practices, and common mistakes.
+* Passwords
+* Phishing
+* MFA/2FA
+* Social engineering
+* Malware
+* Online privacy
 
-## Greetings.cs
+Keeping the information in a separate class makes the project easier to organise and update.
 
-This class handles the chatbot greeting and greeting sound.
+### Greetings.cs
 
-It displays a personalized greeting using the user's name and plays the WAV audio file.
+This class is used for the chatbot's greeting.
 
-## Cybersecurity Topics
+It can display a personalised greeting using the user's name. It is also responsible for playing the WAV sound when the application starts.
 
-### 1. Password Security
+## 5. Cybersecurity Topics
 
-The chatbot teaches users how to create and manage strong passwords.
+### Password Security
 
-Examples of recommendations include:
+The chatbot explains why strong passwords are important.
 
-. Use passwords with 12 or more characters.
-. Do not reuse passwords.
-. Enable 2FA.
-. Use a password manager.
-. Change passwords if a breach is suspected.
+Some of the advice given includes:
 
-### 2. Phishing Attacks
+* Use long passwords.
+* Avoid using the same password on different accounts.
+* Use a password manager.
+* Enable MFA where possible.
+* Change a password if an account may have been compromised.
 
-Users learn how attackers use fake communications to steal sensitive information.
+### Phishing
 
-The chatbot recommends:
+Phishing is when someone tries to trick a person into giving away information, such as passwords or banking details.
 
-1 Checking sender addresses.
-2 Checking links before clicking.
-3Looking for spelling errors.
-4 Being suspicious of urgent requests.
-5Verifying requests through official channels.
+The chatbot advises users to:
 
-### 3. Multi-Factor Authentication
+* Check who sent the message.
+* Be careful with links.
+* Look for unusual spelling or grammar.
+* Avoid responding to unexpected urgent requests.
+* Confirm suspicious requests using an official contact method.
 
-The chatbot explains how MFA provides additional security when logging into accounts.
+### Multi-Factor Authentication
 
-Users are encouraged to:
+MFA adds another security step when logging into an account.
 
-1 Enable MFA.
-2 Use authenticator applications.
-3 Keep backup codes secure.
-4 Use biometrics where available.
-5 Review active sessions.
+The chatbot recommends enabling MFA on important accounts and keeping backup codes safe.
 
-### 4. Social Engineering
+It also explains that authenticator apps and other verification methods can provide additional protection.
 
-The chatbot explains how social engineering uses psychological manipulation to gain unauthorized access to information or systems.
+### Social Engineering
 
-Users are advised to:
+Social engineering involves manipulating people into giving away information or allowing access to something they should not.
 
-1 Verify identities.
-2 Be careful with unsolicited requests.
-3 Follow security procedures.
-4 Report suspicious behaviour.
-5 Trust but verify.
+The chatbot teaches users to check who they are dealing with before sharing information and to be careful with unexpected requests.
 
-### 5. Malware Protection
+### Malware
 
-The chatbot explains malware and provides ways to protect computers from malicious software.
+Malware is harmful software that can damage a device or be used to steal information.
 
-Recommended practices include:
+The chatbot recommends keeping software updated, downloading applications from trusted sources and avoiding suspicious attachments and links.
 
-1 Install reliable antivirus software.
-. Keep software updated.
-. Download software from official sources.
-. Be careful with attachments and links.
-. Back up important files.
+Users are also encouraged to back up important files.
 
-### 6. Online Privacy
+### Online Privacy
 
-The chatbot provides advice on protecting personal information online.
+The chatbot also gives advice about protecting personal information online.
 
-Users are encouraged to:
+This includes checking privacy settings, being careful about information shared on social media and taking extra care when using public Wi-Fi.
 
-. Review privacy settings.
-. Use VPNs on public Wi-Fi.
-. Be careful about information shared online.
-. Use privacy-focused browsers.
-. Clear cookies and browsing history regularly.
+## 6. How the Chatbot Works
 
-## How to Run the Project
+When the program starts, the chatbot first plays the greeting sound and displays its logo.
 
-### Step 1: Open the Project
+The user is then asked to enter their name.
 
-Open the project using Visual Studio.
+After entering their name, the chatbot gives them a personalised welcome message.
 
-### Step 2: Check the .NET Version
+The user can then type a question.
 
-The project uses:
+The program checks the words in the question and tries to identify the cybersecurity topic.
 
-```text
-.NET 8
-```
+For example:
 
-### Step 3: Check the Audio File
+`What is phishing?`
 
-Make sure the WAV audio file is included in the project:
-
-```text
-WhatsApp Ptt 2026-08-19 at 12.43.50.wav
-```
-
-The project file is configured to copy the audio file to the output directory when the project is built.
-
-### Step 4: Build the Project
-
-In Visual Studio:
-
-```text
-Build → Build Solution
-```
-
-### Step 5: Run the Chatbot
-
-Press:
-
-```text
-Ctrl + F5
-```
-
-or press the Start button in Visual Studio.
-
-## How to Use the Chatbot
-
-When the program starts:
-
-1. The greeting sound plays.
-2. The chatbot logo is displayed.
-3. The user enters their name.
-4. The chatbot welcomes the user.
-5. The user can ask cybersecurity questions.
-
-Example questions:
-
-```text
-What is phishing?
-How do I create a strong password?
-What is malware?
-What is social engineering?
-How can I protect my privacy online?
-What is 2FA?
-Give me cybersecurity tips
-```
+The chatbot recognises the word **phishing** and displays information about phishing attacks.
 
 The user can also type:
 
-```text
-menu
-```
+`menu`
 
-to display the cybersecurity topics.
+to see the available topics.
 
-To end the conversation, type:
+To stop the chatbot, the user can type:
 
-```text
-exit
-```
+`exit`
 
-Other supported farewell commands include:
+Other goodbye commands such as `bye`, `goodbye`, `quit`, `see you` and `take care` are also supported.
 
-```text
-bye
-goodbye
-quit
-see you
-take care
-```
+## 7. Conversation History
 
-## Key Features
+The chatbot keeps the user's messages in a `List<string>`.
 
-* Interactive conversation
-* Personalized responses using the user's name
-* Keyword-based question detection
-* Cybersecurity knowledge base
-* Multiple responses for greetings
-* Multiple responses for farewells
-* Conversation history
+This allows the application to keep track of the conversation while the program is running.
+
+Dictionaries are also used to organise keywords and connect them with the correct cybersecurity responses.
+
+## 8. Error Handling
+
+The program includes basic error handling to prevent problems during normal use.
+
+For example, if the user presses Enter without typing anything, the chatbot asks them to enter a message.
+
+The audio also has error handling. If the WAV file cannot be found or played, the application can use a system beep instead of stopping the whole program.
+
+## 9. Audio Greeting
+
+One of the additional features of the project is the startup audio.
+
+When the chatbot starts, it attempts to play the WAV file:
+
+`WhatsApp Ptt 2026-08-19 at 12.43.50.wav`
+
+The audio gives the application a more interactive feel instead of only displaying text.
+
+## 10. Running the Application
+
+To run the project:
+
+1. Open the project in Visual Studio or Visual Studio Code.
+2. Make sure .NET 8 is installed.
+3. Check that the WAV audio file is included in the project.
+4. Build the solution.
+5. Start the application.
+
+In Visual Studio, the application can be started using **Ctrl + F5** or the Start button.
+
+## 11. Example Questions
+
+The user can ask questions such as:
+
+* What is phishing?
+* How do I make a strong password?
+* What is malware?
+* What is social engineering?
+* What is MFA?
+* How can I protect my privacy?
+* Give me some cybersecurity tips.
+
+## 12. Features of the Application
+
+The main features include:
+
+* Personalised greetings
+* Cybersecurity information
+* Keyword-based responses
 * Topic menu
-* Typewriter text effect
+* Conversation history
+* Goodbye commands
+* Audio greeting
+* Typewriter effect
 * Console colours
-* Startup greeting sound
-* Null input handling
-* General cybersecurity advice
+* Empty-input checking
+* Error handling
 
-## Error Handling
+## 13. C# Concepts Demonstrated
 
-The application checks for empty user input and asks the user to enter something when no input is provided.
+This project allowed me to use several C# programming concepts, including:
 
-The greeting sound also includes error handling. If the WAV file cannot be found or played, the program attempts to use a system beep instead.
-
-## Purpose of the Application
-
-The purpose of Chatbot is to provide users with an easy and interactive way to learn about cybersecurity.
-
-The application focuses on cybersecurity awareness and teaches users how to protect their accounts, devices, personal information, and online activities.
-
-## Conclusion
-
-Chatbot demonstrates how C# can be used to create an interactive console application.
-
-The project combines:
-
-* Object-oriented programming concepts
-* Collections
-* Dictionaries
-* Lists
-* Conditional statements
-* Loops
+* Classes
 * Methods
-* String processing
+* Variables
+* Lists
+* Dictionaries
+* Loops
+* `if` statements
+* String manipulation
+* User input
 * Exception handling
 * File handling
 * Audio playback
-* User interaction
+* Console formatting
 
-The chatbot provides a simple cybersecurity learning experience while demonstrating practical C# programming skills.
+## 14. Conclusion
+
+The Cybersecurity Awareness Chatbot is a simple application that combines cybersecurity awareness with C# programming.
+
+It gives users an easy way to ask questions about common online security problems and receive useful information.
+
+The project also helped demonstrate how different C# features can be combined to create an interactive console application. Separating the project into different classes also makes the code easier to manage and improve in the future.
