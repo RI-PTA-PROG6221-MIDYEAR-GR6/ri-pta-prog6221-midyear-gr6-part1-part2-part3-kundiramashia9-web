@@ -43,8 +43,8 @@ The main objectives of this project are to:
 ## Project Structure
 
 ```text
-ChatbotBot/
-│
+ChatbotBot
+
 1. Chatbot.cs
 2. ChatbotEngine.cs
 3. CyberAnswers.cs
@@ -72,7 +72,7 @@ This class controls the main conversation.
 
 It handles:
 
-* User input.
+1 User input.
 * Greetings.
 * Farewells.
 * The topic menu.
