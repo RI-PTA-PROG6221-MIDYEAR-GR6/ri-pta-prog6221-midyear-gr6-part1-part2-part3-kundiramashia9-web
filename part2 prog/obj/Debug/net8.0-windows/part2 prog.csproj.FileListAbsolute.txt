@@ -1,0 +1,24 @@
+C:\Users\Student\OneDrive - ADvTECH Ltd\Desktop\Prog6221-part-1-2-3\part2 prog\part2 prog\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Student\OneDrive - ADvTECH Ltd\Desktop\Prog6221-part-1-2-3\part2 prog\part2 prog\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Student\OneDrive - ADvTECH Ltd\Desktop\Prog6221-part-1-2-3\part2 prog\part2 prog\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Student\OneDrive - ADvTECH Ltd\Desktop\Prog6221-part-1-2-3\part2 prog\part2 prog\obj\Debug\net8.0-windows\part2 prog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\OneDrive - ADvTECH Ltd\Desktop\Prog6221-part-1-2-3\part2 prog\part2 prog\obj\Debug\net8.0-windows\part2 prog.AssemblyInfoInputs.cache
+C:\Users\Student\OneDrive - ADvTECH Ltd\Desktop\Prog6221-part-1-2-3\part2 prog\part2 prog\obj\Debug\net8.0-windows\part2 prog.AssemblyInfo.cs
+C:\Users\Student\OneDrive - ADvTECH Ltd\Desktop\Prog6221-part-1-2-3\part2 prog\part2 prog\obj\Debug\net8.0-windows\part2 prog.csproj.CoreCompileInputs.cache
+C:\Users\Student\OneDrive - ADvTECH Ltd\Desktop\Prog6221-part-1-2-3\part2 prog\part2 prog\obj\Debug\net8.0-windows\part2 prog.genruntimeconfig.cache
+C:\Users\Student\OneDrive - ADvTECH Ltd\Desktop\Prog6221-part-1-2-3\part2 prog\part2 prog\obj\Debug\net8.0-windows\part2 prog.csproj.AssemblyReference.cache
+C:\Users\Student\OneDrive - ADvTECH Ltd\Desktop\Prog6221-part-1-2-3\part2 prog\part2 prog\obj\Debug\net8.0-windows\CyberGuardBot_MarkupCompile.cache
+C:\Users\Student\OneDrive - ADvTECH Ltd\Desktop\Prog6221-part-1-2-3\part2 prog\part2 prog\obj\Debug\net8.0-windows\CyberGuardBot.g.resources
+C:\Users\Student\OneDrive - ADvTECH Ltd\Desktop\Prog6221-part-1-2-3\part2 prog\part2 prog\bin\Debug\net8.0-windows\CyberGuardBot.exe
+C:\Users\Student\OneDrive - ADvTECH Ltd\Desktop\Prog6221-part-1-2-3\part2 prog\part2 prog\bin\Debug\net8.0-windows\CyberGuardBot.deps.json
+C:\Users\Student\OneDrive - ADvTECH Ltd\Desktop\Prog6221-part-1-2-3\part2 prog\part2 prog\bin\Debug\net8.0-windows\CyberGuardBot.runtimeconfig.json
+C:\Users\Student\OneDrive - ADvTECH Ltd\Desktop\Prog6221-part-1-2-3\part2 prog\part2 prog\bin\Debug\net8.0-windows\CyberGuardBot.dll
+C:\Users\Student\OneDrive - ADvTECH Ltd\Desktop\Prog6221-part-1-2-3\part2 prog\part2 prog\bin\Debug\net8.0-windows\CyberGuardBot.pdb
+C:\Users\Student\OneDrive - ADvTECH Ltd\Desktop\Prog6221-part-1-2-3\part2 prog\part2 prog\bin\Debug\net8.0-windows\System.Speech.dll
+C:\Users\Student\OneDrive - ADvTECH Ltd\Desktop\Prog6221-part-1-2-3\part2 prog\part2 prog\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Speech.dll
+C:\Users\Student\OneDrive - ADvTECH Ltd\Desktop\Prog6221-part-1-2-3\part2 prog\part2 prog\obj\Debug\net8.0-windows\part2 prog.csproj.Up2Date
+C:\Users\Student\OneDrive - ADvTECH Ltd\Desktop\Prog6221-part-1-2-3\part2 prog\part2 prog\obj\Debug\net8.0-windows\CyberGuardBot.dll
+C:\Users\Student\OneDrive - ADvTECH Ltd\Desktop\Prog6221-part-1-2-3\part2 prog\part2 prog\obj\Debug\net8.0-windows\refint\CyberGuardBot.dll
+C:\Users\Student\OneDrive - ADvTECH Ltd\Desktop\Prog6221-part-1-2-3\part2 prog\part2 prog\obj\Debug\net8.0-windows\CyberGuardBot.pdb
+C:\Users\Student\OneDrive - ADvTECH Ltd\Desktop\Prog6221-part-1-2-3\part2 prog\part2 prog\obj\Debug\net8.0-windows\ref\CyberGuardBot.dll
+C:\Users\Student\OneDrive - ADvTECH Ltd\Desktop\Prog6221-part-1-2-3\part2 prog\part2 prog\bin\Debug\net8.0-windows\WhatsApp Ptt 2026-08-19 at 12.43.50 - Copy.wav
